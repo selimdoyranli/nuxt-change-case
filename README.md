@@ -23,13 +23,39 @@ yarn add nuxt-change-case # or npm install nuxt-change-case
 ```js
 {
   modules: [
-    // Simple usage
-    'nuxt-change-case',
-
-    // With options
-    ['nuxt-change-case', { /* module options */ }]
+    'nuxt-change-case'
   ]
 }
+```
+
+## Usage
+
+```vue
+<h1> {{ $pascalCase('hello world') }} </h1>
+// HelloWorld
+```
+
+```vue
+<h1> {{ $lowerCase('Çocuk Adam Bak Buraya') }} </h1>
+// çocuk adam bak buraya
+```
+
+```vue
+<h1> {{ $localeUpperCase('şemsi paşa pasajında sesi büzüşesiceler', 'tr') </h1>
+// ŞEMSİ PAŞA PASAJINDA SESİ BÜZÜŞESİCELER
+```
+
+```vue
+<h1> {{ $localeUpperCase('KENAN MEMEDOV! SOVIETSKA ARMY', 'az') </h1>
+// kenan memedov! sovietska army
+```
+
+```vue
+// In asyncData
+asyncData ({ $paramCase }) {
+  console.log($paramCase('nuxt change case'))
+}
+// nuxt-change-case
 ```
 
 ## Development
@@ -42,7 +68,7 @@ yarn add nuxt-change-case # or npm install nuxt-change-case
 
 [MIT License](./LICENSE)
 
-Copyright (c) selimdoyranli <selim@radkod.com>
+Copyright (c) RadKod <info@radkod.com>
 
 <!-- Badges -->
 [npm-version-src]: https://img.shields.io/npm/v/nuxt-change-case/latest.svg
@@ -51,8 +77,8 @@ Copyright (c) selimdoyranli <selim@radkod.com>
 [npm-downloads-src]: https://img.shields.io/npm/dt/nuxt-change-case.svg
 [npm-downloads-href]: https://npmjs.com/package/nuxt-change-case
 
-[github-actions-ci-src]: https://github.com/https://github.com/RadKod/nuxt-change-case.git/workflows/ci/badge.svg
-[github-actions-ci-href]: https://github.com/https://github.com/RadKod/nuxt-change-case.git/actions?query=workflow%3Aci
+[github-actions-ci-src]: https://github.com/RadKod/nuxt-change-case.git/workflows/ci/badge.svg
+[github-actions-ci-href]: https://github.com/RadKod/nuxt-change-case.git/actions?query=workflow%3Aci
 
 [codecov-src]: https://img.shields.io/codecov/c/github/https://github.com/RadKod/nuxt-change-case.git.svg
 [codecov-href]: https://codecov.io/gh/https://github.com/RadKod/nuxt-change-case.git
