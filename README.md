@@ -30,33 +30,35 @@ yarn add nuxt-change-case # or npm install nuxt-change-case
 
 ## Usage
 
-```vue
+```js
 <h1> {{ $pascalCase('hello world') }} </h1>
 // HelloWorld
 ```
 
-```vue
+```js
 <h1> {{ $lowerCase('Çocuk Adam Bak Buraya') }} </h1>
 // çocuk adam bak buraya
 ```
 
-```vue
+```js
 <h1> {{ $localeUpperCase('şemsi paşa pasajında sesi büzüşesiceler', 'tr') </h1>
 // ŞEMSİ PAŞA PASAJINDA SESİ BÜZÜŞESİCELER
 ```
 
-```vue
+```js
 <h1> {{ $localeUpperCase('KENAN MEMEDOV! SOVIETSKA ARMY', 'az') </h1>
 // kenan memedov! sovietska army
 ```
 
-```vue
+```js
 // In asyncData
 asyncData ({ $paramCase }) {
   console.log($paramCase('nuxt change case'))
 }
 // nuxt-change-case
 ```
+
+Please check full documentation. Same as **[change-case](https://github.com/blakeembrey/change-case)**.
 
 ## Development
 
