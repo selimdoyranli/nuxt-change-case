@@ -81,5 +81,5 @@ Copyright (c) RadKod <info@radkod.com>
 [codecov-src]: https://img.shields.io/codecov/c/github/RadKod/nuxt-change-case.svg
 [codecov-href]: https://codecov.io/gh/RadKod/nuxt-change-case
 
-[license-src]: https://img.shields.io/npm/l/nuxt-change-case.svg
+[license-src]: https://img.shields.io/badge/License-MIT-blue.svg
 [license-href]: https://npmjs.com/package/nuxt-change-case/LICENSE
