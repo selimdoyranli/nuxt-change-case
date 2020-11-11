@@ -6,5 +6,9 @@ module.exports = {
   },
   extends: [
     '@nuxtjs'
-  ]
+  ],
+  rules: {
+    semi: ['error', 'never'],
+    'import/namespace': 'off'
+  }
 }

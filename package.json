@@ -1,13 +1,19 @@
 {
   "name": "nuxt-change-case",
   "version": "0.0.0",
-  "description": "change-case implementation as nuxt module.",
+  "description": "change-case integration as nuxt module.",
   "repository": "https://github.com/RadKod/nuxt-change-case.git",
   "license": "MIT",
   "contributors": [
     {
       "name": "selimdoyranli <selim@radkod.com>"
     }
+  ],
+  "keywords": [
+    "nuxt change case",
+    "nuxt string filter",
+    "vue change case",
+    "vue string filter"
   ],
   "files": [
     "lib"
@@ -19,7 +25,18 @@
     "release": "yarn test && standard-version && git push --follow-tags && npm publish",
     "test": "yarn lint && jest"
   },
-  "dependencies": {},
+  "dependencies": {
+    "change-case": "^4.1.1",
+    "is-lower-case": "^2.0.1",
+    "is-upper-case": "^2.0.1",
+    "lower-case": "^2.0.1",
+    "lower-case-first": "^2.0.1",
+    "sponge-case": "^1.0.0",
+    "swap-case": "^2.0.1",
+    "title-case": "^3.0.2",
+    "upper-case": "^2.0.1",
+    "upper-case-first": "^2.0.1"
+  },
   "devDependencies": {
     "@babel/core": "latest",
     "@babel/preset-env": "latest",
