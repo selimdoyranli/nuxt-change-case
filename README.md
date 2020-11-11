@@ -79,11 +79,8 @@ Copyright (c) RadKod <info@radkod.com>
 [npm-downloads-src]: https://img.shields.io/npm/dt/nuxt-change-case.svg
 [npm-downloads-href]: https://npmjs.com/package/nuxt-change-case
 
-[github-actions-ci-src]: https://github.com/RadKod/nuxt-change-case.git/workflows/ci/badge.svg
-[github-actions-ci-href]: https://github.com/RadKod/nuxt-change-case.git/actions?query=workflow%3Aci
-
-[codecov-src]: https://img.shields.io/codecov/c/github/https://github.com/RadKod/nuxt-change-case.git.svg
-[codecov-href]: https://codecov.io/gh/https://github.com/RadKod/nuxt-change-case.git
+[codecov-src]: https://img.shields.io/codecov/c/github/RadKod/nuxt-change-case.svg
+[codecov-href]: https://codecov.io/gh/RadKod/nuxt-change-case
 
 [license-src]: https://img.shields.io/npm/l/nuxt-change-case.svg
-[license-href]: https://npmjs.com/package/nuxt-change-case
+[license-href]: https://npmjs.com/package/nuxt-change-case/LICENSE
