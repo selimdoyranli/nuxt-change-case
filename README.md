@@ -45,7 +45,7 @@ yarn add nuxt-change-case # or npm install nuxt-change-case
 ```
 
 ```js
-<h1> {{ $localeUpperCase('KENAN MEMEDOV! SOVIETSKA ARMY', 'az') </h1>
+<h1> {{ $localeLowerCase('KENAN MEMEDOV! SOVIETSKA ARMY', 'az') </h1>
 // kenan memedov! sovietska army
 ```
 

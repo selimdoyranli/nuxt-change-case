@@ -20,7 +20,7 @@
       </div>
 
       <div class="result">
-        <code> $localeUpperCase('KENAN MEMEDOV! SOVIETSKA ARMY', 'az') </code>
+        <code> $localeLowerCase('KENAN MEMEDOV! SOVIETSKA ARMY', 'az') </code>
         <h2> {{ $localeLowerCase('KENAN MEMEDOV! SOVIETSKA ARMY', 'az') }} </h2>
       </div>
     </main>
