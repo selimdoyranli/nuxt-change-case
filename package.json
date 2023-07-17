@@ -2,11 +2,11 @@
   "name": "nuxt-change-case",
   "version": "1.0.1",
   "description": "change-case integration as nuxt module.",
-  "repository": "https://github.com/RadKod/nuxt-change-case.git",
+  "repository": "https://github.com/selimdoyranli/nuxt-change-case.git",
   "license": "MIT",
   "contributors": [
     {
-      "name": "selimdoyranli <selim@radkod.com>"
+      "name": "selimdoyranli <selimdoyranli@gmail.com>"
     }
   ],
   "keywords": [

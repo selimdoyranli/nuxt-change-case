@@ -69,7 +69,7 @@ Please check full documentation. Same as **[change-case](https://github.com/blak
 
 [MIT License](./LICENSE)
 
-Copyright (c) RadKod <info@radkod.com>
+Copyright (c) selimdoyranli <selimdoyranli@gmail.com.com>
 
 <!-- Badges -->
 [npm-version-src]: https://img.shields.io/npm/v/nuxt-change-case/latest.svg
@@ -78,8 +78,8 @@ Copyright (c) RadKod <info@radkod.com>
 [npm-downloads-src]: https://img.shields.io/npm/dt/nuxt-change-case.svg
 [npm-downloads-href]: https://npmjs.com/package/nuxt-change-case
 
-[codecov-src]: https://img.shields.io/codecov/c/github/RadKod/nuxt-change-case.svg
-[codecov-href]: https://codecov.io/gh/RadKod/nuxt-change-case
+[codecov-src]: https://img.shields.io/codecov/c/github/selimdoyranli/nuxt-change-case.svg
+[codecov-href]: https://codecov.io/gh/selimdoyranli/nuxt-change-case
 
 [license-src]: https://img.shields.io/badge/License-MIT-blue.svg
 [license-href]: https://npmjs.com/package/nuxt-change-case/LICENSE

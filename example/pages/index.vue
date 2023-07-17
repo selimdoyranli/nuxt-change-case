@@ -1,7 +1,7 @@
 <template>
   <div class="page">
     <header>
-      <h1><a href="https://github.com/RadKod/nuxt-change-case" target="_blank">nuxt-change-case</a></h1>
+      <h1><a href="https://github.com/selimdoyranli/nuxt-change-case" target="_blank">nuxt-change-case</a></h1>
     </header>
     <main>
       <div class="result">
