@@ -5,7 +5,7 @@
 [![Codecov][codecov-src]][codecov-href]
 [![License][license-src]][license-href]
 
-> change-case implementation as nuxt module.
+> change-case-all@1.0.15 implementation as nuxt module.
 
 [📖 **Release Notes**](./CHANGELOG.md)
 
@@ -56,8 +56,19 @@ asyncData ({ $paramCase }) {
 }
 // nuxt-change-case
 ```
+<br>
 
-Please check full documentation. Same as **[change-case](https://github.com/blakeembrey/change-case)**.
+Please check full documentation. Same as **[change-case-all@1.0.15](https://www.npmjs.com/package/change-case-all/v/1.0.15)**.
+
+<br>
+
+### Additional Converters
+These methods are custom-written methods on this module that are not provided by change-case-all.
+
+```js
+<h1> {{ $localeCapitalCase('benim adım ibrahim yılmaz', 'tr') </h1>
+// Benim Adım İbrahim Yılmaz
+```
 
 ## Development
 
@@ -69,7 +80,7 @@ Please check full documentation. Same as **[change-case](https://github.com/blak
 
 [MIT License](./LICENSE)
 
-Copyright (c) selimdoyranli <selimdoyranli@gmail.com.com>
+Copyright (c) selimdoyranli <selimdoyranli@gmail.com>
 
 <!-- Badges -->
 [npm-version-src]: https://img.shields.io/npm/v/nuxt-change-case/latest.svg

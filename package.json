@@ -11,9 +11,7 @@
   ],
   "keywords": [
     "nuxt change case",
-    "nuxt string filter",
-    "vue change case",
-    "vue string filter"
+    "nuxt string case utils"
   ],
   "files": [
     "lib"
@@ -26,16 +24,7 @@
     "test": "yarn lint && jest"
   },
   "dependencies": {
-    "change-case": "^4.1.1",
-    "is-lower-case": "^2.0.1",
-    "is-upper-case": "^2.0.1",
-    "lower-case": "^2.0.1",
-    "lower-case-first": "^2.0.1",
-    "sponge-case": "^1.0.0",
-    "swap-case": "^2.0.1",
-    "title-case": "^3.0.2",
-    "upper-case": "^2.0.1",
-    "upper-case-first": "^2.0.1"
+    "change-case-all": "1.0.15"
   },
   "devDependencies": {
     "@babel/core": "latest",
