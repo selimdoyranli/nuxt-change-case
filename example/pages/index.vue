@@ -23,6 +23,11 @@
         <code> $localeLowerCase('KENAN MEMEDOV! SOVIETSKA ARMY', 'az') </code>
         <h2> {{ $localeLowerCase('KENAN MEMEDOV! SOVIETSKA ARMY', 'az') }} </h2>
       </div>
+
+      <div class="result">
+        <code> $localeCapitalCase('benim adım ibrahim yılmaz', 'tr') </code>
+        <h2> {{ $localeCapitalCase('benim adım ibrahim yılmaz', 'tr') }} </h2>
+      </div>
     </main>
   </div>
 </template>
